@@ -15,3 +15,8 @@
 .project-links{display:flex;gap:16px;flex-wrap:wrap;margin:22px 0}
 .project-links a{display:inline-flex;align-items:center;gap:7px;text-decoration:underline;text-underline-offset:4px}
 .media-action{margin:20px 0}
+
+/* Clean, unobstructed thumbnails for real video stills */
+.project-visual.has-image{background-repeat:no-repeat;background-size:cover;background-position:center}
+.project-visual.has-image .visual-inner,.project-visual.has-image .visual-grain{display:none!important}
+.project-visual.has-image:after{content:none}
